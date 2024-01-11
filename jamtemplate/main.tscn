@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://4udg71hnsah"]
+
+[ext_resource type="Script" path="res://InputTest.gd" id="1_tw8q1"]
+[ext_resource type="Texture2D" uid="uid://ctgq0dsc36xv8" path="res://icon.svg" id="2_qdstx"]
+
+[node name="Main" type="Node2D"]
+
+[node name="InputTest" type="CharacterBody2D" parent="."]
+script = ExtResource("1_tw8q1")
+
+[node name="InputTest" type="Sprite2D" parent="InputTest"]
+position = Vector2(546, 311)
+texture = ExtResource("2_qdstx")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="InputTest"]
+position = Vector2(546, 311)
+polygon = PackedVector2Array(64, -59.6, 64, 59, 59.6, 64, -59, 64, -64, 59.6, -64, -59.6, -59, -63.9, 59, -64)
