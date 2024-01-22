@@ -25,6 +25,10 @@ Environment variables (env):
 - Enable "SharedArrayBuffer support"
 -  After first successfull upload: configure uploaded files
 
+### Jam submission
+Be sure to deactivate GitHub actions in the repo after the submission deadline while the rating period is in session.
+Otherwise you risk violating submission guidelines like "no changes after submission".
+
 
 ## Credit
 Based on [Godot-CI Github Action](https://github.com/abarichello/godot-ci) and pipeline adjustements from [Bloham](https://github.com/abarichello/godot-ci/issues/123). 
